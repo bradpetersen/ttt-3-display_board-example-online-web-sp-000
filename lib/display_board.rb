@@ -1,16 +1,16 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
-def row
-  " | | "
+def tic_tack_toe_row
+  "   |   |   "
 end
 
-def separator
-  "-----"
+def tic_tack_toe_separator
+  "-----------"
 end
 
 def display_board
-  puts row
-  puts separator
-  puts row
-  puts separator
-  puts row
+  puts tic_tack_toe_row
+  puts tic_tack_toe_separator
+  puts tic_tack_toe_row
+  puts tic_tack_toe_separator
+  puts tic_tack_toe_row
 end
